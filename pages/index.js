@@ -1,8 +1,6 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
-import HeroTitle from '../components/HeroTitle';
-import SearchBar from '../components/SearchBar';
-import SearchButton from '../components/SearchButton';
+import HomeMain from '../components/HomeMain';
 
 export default function Home() {
   return (
@@ -12,9 +10,7 @@ export default function Home() {
       </Head>
 
       <Navbar/>
-      <HeroTitle/>
-      <SearchBar/>
-      <SearchButton/>
+      <HomeMain/>
     </div>
   )
 }
