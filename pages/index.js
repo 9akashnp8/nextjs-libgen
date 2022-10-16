@@ -1,14 +1,20 @@
-import Head from 'next/head'
-import Navbar from '../components/Navbar'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Navbar from '../components/Navbar';
+import HeroTitle from '../components/HeroTitle';
+import SearchBar from '../components/SearchBar';
+import SearchButton from '../components/SearchButton';
 
 export default function Home() {
   return (
-    <div>
+    <div className='container'>
+      <Head>
+        <title>Next Libgen</title>
+      </Head>
+
       <Navbar/>
-      <div className={styles.container}>
-        <h1>Hello world</h1>
-      </div>
+      <HeroTitle/>
+      <SearchBar/>
+      <SearchButton/>
     </div>
   )
 }
