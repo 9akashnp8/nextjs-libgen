@@ -4,7 +4,7 @@ let navbarItems = ['RU', 'FORUM', 'DOWNLOAD', 'UPLOAD', 'LAST', 'OTHERS', 'TOPIC
 
 function NavbarMenuItems() {
     return (
-        <ul class={styles.navbar}>
+        <ul>
             {navbarItems.map((item) => <li>{item}</li>)}
         </ul>
     )
