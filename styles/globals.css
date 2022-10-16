@@ -29,7 +29,7 @@ ul li {
   list-style-type: none;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -37,4 +37,4 @@ ul li {
     color: white;
     background: black;
   }
-} */
+}
